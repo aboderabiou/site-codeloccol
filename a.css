@@ -1,0 +1,37 @@
+.page {
+    display:flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+.A, .B, .C {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.section-gauche{
+    display:flex;
+    justify-content: space-around;
+    border: 3px solid rgb(17, 0, 255);
+    height: 200px;
+    align-items: flex-start;
+
+}
+.section{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 3px solid rgb(17, 0, 255);
+    flex-wrap: wrap;
+}
+
+.section-droite{
+    display:flex;
+    justify-content: space-around;
+    border: 5px solid red;
+    height: 200px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
